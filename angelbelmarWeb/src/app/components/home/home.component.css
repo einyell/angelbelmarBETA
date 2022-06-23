@@ -1,41 +1,44 @@
 .container {
-  display: block;
+  display:block;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: #242936;
   height: auto;
+  width: auto;
 }
 
 section {
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #242936;
+    height: auto;
+    width: auto;
 }
 
-#welcome {
-  background-color: #242936;
+
+#home {
 }
 
 #about {
   margin-top: 3.5rem;
-  background-color: #242936;
 }
 
 
 #services {
   margin-top: 5rem;
-  background-color:  #242936;
 }
 
 #portfolio {
     margin-top: 5rem;
-    background-color:  #242936;
   }
 
   #contact {
     margin-top: 5rem;
-    background-color: rgb(188, 188, 188);
+    background-color: #F4E9DA;
+    min-width: fit-content;
   }
 
 
@@ -99,7 +102,7 @@ section {
 
 .barra {
   display: block;
-  position: absolute;
+  position: relative;
   left: 50%;
   width: 16rem;
   height: 5px;
@@ -115,3 +118,57 @@ section {
     
     border-top: 200px solid #242936;
   }
+
+  
+.html5{
+    margin-top: -10px;
+    border-bottom: 8px solid #ED5E27;
+    width: 100%;
+  }
+
+  .css3{
+      margin-top: -10px;
+      border-bottom: 8px solid #2965F1;
+      width: 80%;
+    }
+    .javascript{
+      margin-top: -10px;
+      border-bottom: 8px solid #F0DB4F;
+      width: 80%;
+    }
+    .angular{
+      margin-top: -10px;
+      border-bottom: 8px solid #E23237;
+      width: 90%;
+    }
+    .wordpress{
+      margin-top: -10px;
+      border-bottom: 8px solid #57A7C4;
+      width: 60%;
+    }
+    .git{
+      margin-top: -10px;
+      border-bottom: 8px solid #F05033;
+    }
+    .photoshop{
+      margin-top: -10px;
+      border-bottom: 8px solid #31A8FF;
+    }
+    .nosql{
+      margin-top: -10px;
+      border-bottom: 8px solid #FFC400;
+    }
+    .jira{
+      margin-top: -10px;
+      border-bottom: 8px solid #1175F7;
+      width: 20%;
+    }
+    .typescript{
+      margin-top: -10px;
+      border-bottom: 8px solid #2D79C7;
+      background: linear-gradient(to right, brown 50px, #ccc 50px);
+      width: 70%;
+    }
+
+
+      
