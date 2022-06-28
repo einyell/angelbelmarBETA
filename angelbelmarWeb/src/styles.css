@@ -1,10 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   font-family: "Titillium Web";
-  background-color: #242936;
+  background-color: #222831;
 }
 
 .container {
@@ -14,37 +15,64 @@ body {
 }
 
 .container>* {
-  flex: 1 100%;
+   display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;  
+
 }
 
 section {
-  margin-top:3% ;
   width: auto;
 }
 
+.text1, .text2 {
+  display: inline;
+}
 
 nav {
-  position: fixed;
+  justify-content: center;
   display: flex;
-  justify-content:center;
-  top: 0;
-  left: 0;
+  text-align: center;
+  position: fixed;
   width: 100%;
   z-index: 999;
-  background-color: #4f90b6;
+  background-color: #393E46;
   box-shadow: 0 4px 80px 0 rgba(216, 252, 9, 0.2),
       0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.sameline{
+  font-size: 90%;
+}
+
 a {
-  color: #f51a0b;
-  padding: 20px;
-  width: 90px;
-  height: 50px;
+  margin: 0.5rem;
+  font-size:90% ;
+  color: #E8E5E2;
   text-decoration: none;
+  text-align: center;
 }
 
 
+.box {
+  border: 1px solid #E8E5E2;
+  font-size:130%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-top: 5%;
+  margin-bottom: 6%;
+  
+}
+.box:hover, a:active {
+  transition: 0.7s;
+  background-color: #00ADB5;
+  font-size:140%;
+}
+
+#services{
+  margin-top: 5%;
+}
 
 .footer {
   background: white;
@@ -52,33 +80,39 @@ a {
 
 
 h1 {
-  color: #EDFBFD;
-  font-size: 300%;
+  color: #E8E5E2;
+  font-size: 270%;
+  font-weight:lighter;
 }
 
+.hi {
+  padding-top:2.5% ;
+  padding-left: 5%;
+  padding-right:5% ;
+}
 h2 {
-  color: #EDFBFD;
+  color: #E8E5E2;
   font-size: 200%;
+  font-weight: 100;
 }
 
-h2 .tittle {
+.tittle {
   margin-bottom: 1rem;
+  font-weight: 900;
 }
 
 .discoverButton {
-  color: #f4e9da;
+  font-size: 180%;
+  color: #E8E5E2;
   font-family: "Titillium Web";
-  font-size: 250%;
-  margin-top: 3%;
+  display: contents;
 }
 
 .barra {
   display: block;
   position: relative;
-  left: 50%;
   width: 16rem;
   height: 5px;
-  margin-left: -8rem;
   background-color: #525e65;
 }
 
