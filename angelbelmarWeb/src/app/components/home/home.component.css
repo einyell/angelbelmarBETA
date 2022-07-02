@@ -18,80 +18,23 @@
   margin-right: auto;
   justify-content: center;
   text-align: center;
-}
+} 
+
 
 .logo {
-  max-height: 4rem;
-  max-width: 4rem;
+  max-height: 2.5rem;
+  max-width: auto;
 }
 
 
 .worksimg {
-  object-fit:cover;
-  width: 20rem;
+  display: flex;
+  margin-top: 20%;
+  width: 30rem;
   background-color: aliceblue;
 }
 
 .iconText {
   color: #E8E5E2;
   font-size: 110%;
-}
-
-
-.html5 {
-  margin-top: -10px;
-  border-bottom: 8px solid #ED5E27;
-  width: 100%;
-}
-
-.css3 {
-  margin-top: -10px;
-  border-bottom: 8px solid #2965F1;
-  width: 80%;
-}
-
-.javascript {
-  margin-top: -10px;
-  border-bottom: 8px solid #F0DB4F;
-  width: 80%;
-}
-
-.angular {
-  margin-top: -10px;
-  border-bottom: 8px solid #E23237;
-  width: 90%;
-}
-
-.wordpress {
-  margin-top: -10px;
-  border-bottom: 8px solid #57A7C4;
-  width: 60%;
-}
-
-.git {
-  margin-top: -10px;
-  border-bottom: 8px solid #F05033;
-}
-
-.photoshop {
-  margin-top: -10px;
-  border-bottom: 8px solid #31A8FF;
-}
-
-.nosql {
-  margin-top: -10px;
-  border-bottom: 8px solid #FFC400;
-}
-
-.jira {
-  margin-top: -10px;
-  border-bottom: 8px solid #1175F7;
-  width: 20%;
-}
-
-.typescript {
-  margin-top: -10px;
-  border-bottom: 8px solid #2D79C7;
-  background: linear-gradient(to right, brown 50px, #ccc 50px);
-  width: 70%;
-}
+  text-align: center}
